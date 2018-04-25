@@ -1,0 +1,26 @@
+@import './utilities/_all';
+@import 'node_modules/bulma/bulma.sass';
+
+body {
+  background-color: $primary;
+  background-image: url('../img/bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.brand {
+  margin-right: -.6rem;
+  text-align: center;
+  letter-spacing: .6rem;
+
+  .title {
+    color: $white;
+    font-size: 5.5rem;
+  }
+
+  .subtitle {
+    color: $white;
+    font-size: 2rem;
+  }
+}

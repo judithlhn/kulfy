@@ -1,0 +1,36 @@
+# Parcel
+# ––––––––––––––––––––––
+
+.cache
+dist/
+
+# Git
+# ––––––––––––––––––––––
+
+!.git*
+
+# OS Generated
+# ––––––––––––––––––––––
+
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+*.swp
+
+# Log
+# ––––––––––––––––––––––
+
+*.log
+
+# Sass
+# ––––––––––––––––––––––
+
+.sass-cache
+
+# Npm - Yarn
+# ––––––––––––––––––––––
+
+node_modules/
+yarn.lock
+package-lock.json

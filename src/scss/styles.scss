@@ -9,10 +9,15 @@ body {
   background-size: cover;
 }
 
+.hero {
+  background: radial-gradient(ellipse at center, rgba($black, 0) 0%, rgba($black, .1) 100%);
+}
+
 .brand {
   margin-right: -.6rem;
   text-align: center;
   letter-spacing: .6rem;
+  text-shadow: 0 0 10px rgba($black, .2);
 
   .title {
     color: $white;

@@ -1,6 +1,24 @@
 @import './utilities/_all';
 @import 'node_modules/bulma/bulma.sass';
 
+// Fluid typo
+// ––––––––––––––––––––––
+
+@include mobile {
+  html {
+    font-size: 12px;
+  }
+}
+
+@include touch {
+  html {
+    font-size: 14px;
+  }
+}
+
+// Style
+// ––––––––––––––––––––––
+
 body {
   background-color: $primary;
   background-image: url('../img/bg.jpg');
